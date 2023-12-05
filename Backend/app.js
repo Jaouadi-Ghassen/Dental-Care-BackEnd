@@ -40,7 +40,7 @@ app.use((error,req,res,next) => {
 
 mongoose
 //.connect('mongodb+srv://RayenBelHadj:deadman<3@cluster0.bdrumzs.mongodb.net/cluster0?retryWrites=true&w=majority')
-.connect('mongodb://127.0.0.1/DentalSite')
+//.connect('mongodb://127.0.0.1/DentalSite')
 .then(()=>{
     app.listen(5000); 
 })
